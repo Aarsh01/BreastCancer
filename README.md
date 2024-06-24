@@ -4,13 +4,11 @@ The Breast Cancer Diagnosis app is a machine learning-powered tool designed to a
 
 The app was developed as a machine learning exercice from the public dataset [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data). Note that this dataset may not be reliable as this project was developed for educational purposes in the field of machine learning only and not for professional use.
 
-A live version of the application can be found on Streamlit Community Cloud.
-
 ## Installation
 You can run this inside a virtual environment to make it easier to manage dependencies. I recommend using conda to create a new environment and install the required packages. You can create a new environment 
 called breast-cancer-diagnosis by running:
 
-conda create -n breast-cancer-diagnosis python=3.10 
+<mark>conda create -n breast-cancer-diagnosis python=3.10 </mark>
 
 Then, activate the environment:
 conda activate breast-cancer-diagnosis

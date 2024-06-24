@@ -11,18 +11,21 @@ called breast-cancer-diagnosis by running:
 ```
 conda create -n breast-cancer-diagnosis python=3.10
 ```
+
 Then, activate the environment:
-'''
+```
 conda activate breast-cancer-diagnosis
-'''
+```
+
 Then, activate the environment:
-'''
+```
 conda activate breast-cancer-diagnosis
-'''
+```
+
 To install the required packages, run:
-'''
+```
 pip install -r requirements.txt
-'''
+```
 This will install all the necessary dependencies, including Streamlit, OpenCV, and scikit-image.
 
 ## Usage

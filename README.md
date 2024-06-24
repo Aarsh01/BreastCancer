@@ -37,3 +37,9 @@ This will launch the app in your default web browser. You can then upload an ima
 ## Website
 ![Screenshot (1)](https://github.com/Aarsh01/BreastCancer/assets/95579399/d63499e7-38ae-4617-b717-d0fc15041d3b)
 
+## EDA and Problem Explaination 
+Look into the cancer.ipynb file.
+Best Model has been used for Prediction.
+![Screenshot 2024-06-24 1747031](https://github.com/Aarsh01/BreastCancer/assets/95579399/240ed91a-9d4d-4bf3-832c-8262812dbd91)
+
+

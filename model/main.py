@@ -26,14 +26,14 @@ def create_model(data):
     # Split the data into training and testing sets
     X_train, X_test, y_train, y_test = train_test_split(X_res_final, y_res_final, test_size=0.2, random_state=42)
 
-    # Train the final model (Decision Tree Classifier)
+    # Train the final model (Random Forest Classifier)
     final_model = RandomForestClassifier()
     final_model.fit(X_train, y_train)
 
     # Predict and evaluate the model
     y_pred = final_model.predict(X_test)
-    print("Final Decision Tree Classifier Accuracy Score (Train):", final_model.score(X_train, y_train))
-    print("Final Decision Tree Classifier Accuracy Score (Test):", round(accuracy_score(y_pred, y_test)*100,3))
+    print("Final Random Forest Classifier Accuracy Score (Train):", final_model.score(X_train, y_train))
+    print("Final Random Forest Classifier Accuracy Score (Test):", round(accuracy_score(y_pred, y_test)*100,3))
         
     return final_model, pca_pipeline
 
